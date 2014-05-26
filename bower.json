@@ -1,0 +1,24 @@
+{
+  "name": "async-foreach",
+  "version": "1.0.0",
+  "authors": [
+    "Flammenmensch <maleventum@gmail.com>"
+  ],
+  "description": "Mail.ru task",
+  "keywords": [
+    "async",
+    "forEach"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "qunit": "~1.14.0"
+  }
+}
