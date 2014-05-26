@@ -1,4 +1,10 @@
 # async-foreach
+
+## Syntax
+```javascript
+Lib.asyncForEach(sourceArray, itemCallback, doneCallback);
+```
+
 ## Example
 
 ```javascript
