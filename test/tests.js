@@ -2,17 +2,17 @@
  * Created by flammenmensch on 26.05.14.
  */
 (function () {
-	var source = [ 1, 2, 3 ];
+	var source = [ 0, 1, 2, 3 ];
 
-	asyncTest('asyncForEach item test', function () {
-		expect(4);
+	asyncTest('asyncForEach test', function () {
+		expect(5);
 
 		Lib.asyncForEach(source, function (item, index, next) {
-			ok(true, 'Passed for item at index ' + index);
-
 			next();
+			equal(item, index, 'Item equals index');
 		}, function () {
 			ok(true, 'Passed for all items');
+			start();
 		});
 	})
 } ());
